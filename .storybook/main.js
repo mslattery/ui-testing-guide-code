@@ -15,6 +15,7 @@ module.exports = {
   core: {
     builder: {
       name: 'webpack5',
+      disableTelemetry: true,
     },
   },
   features: {
